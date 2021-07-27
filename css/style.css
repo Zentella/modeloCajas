@@ -1,0 +1,162 @@
+/* desafio 1 */
+body {
+margin: 0;
+padding: 0;
+}
+.main {
+margin: 5px;
+}
+
+/* ejercicio 1 */
+.box {
+border: 2px solid #808080;
+height: 100px;
+width: 20%;
+float:left;
+overflow: auto;
+}
+
+/* ejercicio 2 */
+.box2 {
+margin-left: 20px;
+height: 136px;
+width: 80%;
+overflow: auto;
+}
+
+.box2b {
+margin: 20px;
+height: 100px;
+width: 18%;
+float:left;
+}
+
+/* ejercicio 3 */
+.box2 {
+margin-left: 40px;
+height: 140px;
+width: 90%;
+overflow: auto;
+}
+
+.box2b {
+margin: 40px;
+height: 100px;
+width: 18%;
+float:left;
+}
+
+.navbar {
+background-color: green;
+}
+
+/* desafio 2 */
+.square {
+height : 200px ;
+width : 200px ;
+}
+
+.square__red {
+background-color: rgba(255, 0, 0, .5);
+}
+
+.square__green {
+background-color: rgba(0, 255, 0, .5);
+left: 25px ;
+position : absolute;
+position:absolute; 
+z-index:2;
+left: 25px; 
+top : 25px;
+}
+
+.square__blue {    
+background-color: rgba(0, 0, 255, .5);
+left: 50px ;
+position:absolute; 
+z-index:3;
+left: 50px; 
+top : 50px;
+}
+button {
+margin-top: 100px;
+}
+
+/* desafio 3 */
+.bandera {
+height: 140px;
+width: 230px;
+}
+
+.bandera__España {
+background-color: red;
+margin-top: 100px;
+margin-left: 500px;
+float: left;/*para que banderas se ubiquen al los lados*/
+}
+
+.barra__gruesa {
+background-color: yellow;
+height: 60px;
+width: 226px;
+margin-top: -200px;
+margin-left: -500px;
+border: 2px solid #808080;
+float: left;
+z-index:3;
+}
+
+.bandera__Dinamarca {
+background-color: red;
+margin-top: 100px;
+margin-left: 40px;
+float: left;
+}
+
+.bandera__Emiratos {
+background-color: red;
+margin-top: 50px;
+margin-left: 500px;
+float: left;
+}
+
+.bandera__Japon {
+background-color: white;
+box-sizing:border-box;
+border: 2px solid #808080;
+margin-top: 50px;
+margin-left: 40px;
+float: left;
+}
+
+.medalla {
+background-color: red;
+height: 60px;
+width: 60px;
+margin-top: 90px;
+margin-left: -150px;
+border-radius: 100%;
+float: left;
+z-index:3;
+}
+
+.barra__fina {
+background-color: white;
+height: 140px;
+width: 20px;
+margin-top: 50px;
+margin-left: 400px;
+border: red;
+}
+
+.barra__normal {
+background-color: white;
+height: 140px;
+width: 40px;
+margin-top: 50px;
+margin-left: 400px;
+border: 2px solid #808080;
+}
+
+
+
