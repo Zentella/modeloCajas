@@ -1,103 +1,109 @@
 /* desafio 1 */
+
 body {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .main {
-margin: 5px;
+    margin: 5px;
 }
 
 /* ejercicio 1 */
+
 .box {
-border: 2px solid #808080;
-height: 100px;
-width: 20%;
-float:left;
-overflow: auto;
+    border: 2px solid #808080;
+    height: 100px;
+    width: 20%;
+    float:left;
+    overflow: auto;
 }
 
 /* ejercicio 2 */
+
 .box2 {
-padding: 5px;
-/*margin-left: 20px;*/
-left: 20px;
-height: 136px;
-width: 25%;
-overflow: auto;
+    padding: 5px;
+    left: 20px;
+    height: 136px;
+    width: 25%;
+    overflow: auto;
 }
 
 .box2b {
-padding: 5px;
-margin: 20px;
-height: 100px;
-width: 25%;
-float:left;
+    padding: 5px;
+    margin: 20px;
+    height: 100px;
+    width: 25%;
+    float:left;
 }
 
 /* ejercicio 3 */
+
 .box2 {
-left: 40px;
-height: 150px;
-width: 90%;
-overflow: auto;
+    left: 40px;
+    height: 150px;
+    width: 90%;
+    overflow: auto;
 }
 
 .box2b {
-margin: 40px;
-height: 100px;
-width: 18%;
-float:left;
+    margin: 40px;
+    height: 100px;
+    width: 18%;
+    float:left;
 }
 
 .navbar {
-background-color: green;
+    background-color: green;
 }
 
 /* desafio 2 */
+
 .square {
-height : 200px ;
-width : 200px ;
+    height : 200px ;
+    width : 200px ;
 }
 
 .square__red {
-background-color: rgba(255, 0, 0, .5);
+    background-color: rgba(255, 0, 0, .5);
 }
 
 .square__green {
-background-color: rgba(0, 255, 0, .5);
-left: 25px ;
-position : absolute;
-position:absolute; 
-z-index:2;
-left: 25px; 
-top : 25px;
+    background-color: rgba(0, 255, 0, .5);
+    left: 25px ;
+    position : absolute;
+    position:absolute; 
+    z-index:2;
+    left: 25px; 
+    top : 25px;
 }
 
 .square__blue {    
-background-color: rgba(0, 0, 255, .5);
-left: 50px ;
-position:absolute; 
-z-index:3;
-left: 50px; 
-top : 50px;
-}
-button {
-margin-top: 100px;
+    background-color: rgba(0, 0, 255, .5);
+    left: 50px ;
+    position:absolute; 
+    z-index:3;
+    left: 50px; 
+    top : 50px;
+    }
+    button {
+    margin-top: 100px;
 }
 
 /* desafio 3 */
+
 .bandera {
 height: 140px;
 width: 230px;
 }
-.bandera__España {
-    background-color: red;
-    top: 100px;
-    left: 100px;
-    float: left;/*para que las banderas floten a los lados*/
-    position: absolute;/*mantiene forma*/
+    .bandera__España {
+        background-color: red;
+        top: 100px;
+        left: 100px;
+        float: left;/*para que las banderas floten a los lados*/
+        position: absolute;/*mantiene forma*/
     
     }
+
     .barra__gruesa {
         background-color: yellow;
         height: 60px;
@@ -108,7 +114,7 @@ width: 230px;
         float: left;
         position: absolute;
         z-index:3;
-        }
+    }
 
     .bandera__Dinamarca {
         background-color: red;
@@ -117,7 +123,7 @@ width: 230px;
         left:400px;
         float: left;
         position: absolute;
-        }
+    }
 
     .barra__fina_v {
         background-color: white;
@@ -127,7 +133,7 @@ width: 230px;
         left: 460px;
         position: absolute;
         z-index:3;
-        }
+    }
 
     .barra__fina_h {
         background-color: white;
@@ -137,7 +143,7 @@ width: 230px;
         left: 401px;
         position: absolute;
         z-index:3;
-        }
+    }
 
     .bandera__Emiratos {
         background-color: red;
@@ -146,8 +152,7 @@ width: 230px;
         left:100px;
         float: left;
         position: absolute;
-        }
-
+    }
 
     .barra__normal_verde {
         background-color: green;
@@ -156,8 +161,7 @@ width: 230px;
         top: 300px;
         left: 170px;
         position: absolute;
-
-        }
+    }
 
     .barra__normal_blanca {
         background-color: white;
@@ -166,8 +170,7 @@ width: 230px;
         top: 394px;
         left: 170px;
         position: absolute;
-
-        }
+    }
 
     .barra__normal_negra {
         background-color: black;
@@ -176,8 +179,7 @@ width: 230px;
         top: 394px;
         left: 170px;
         position: absolute;
-
-        }
+    }
 
     .barra__normal_blanca {
         background-color: white;
@@ -186,8 +188,7 @@ width: 230px;
         top: 347px;
         left: 170px;
         position: absolute;
-
-        }
+    }
 
     .bandera__Japon {
         background-color: white;
@@ -196,19 +197,20 @@ width: 230px;
         left:400px;
         float: left;
         position: absolute;
-        }
+    }
 
     .medalla {
         background-color: red;
         height: 80px;
         width: 80px;
         top: 330px;
-        left:480px;
+        left:470px;
         border-radius: 100%;
         float: left;
         position: absolute;
         z-index:3;
-        }
+    }
+
     .españa {
         top: 230px;
         left:100px;
@@ -236,12 +238,3 @@ width: 230px;
         float: left;
         position: absolute;
     }
-
-
-
-
-
-
-
-*/
-
