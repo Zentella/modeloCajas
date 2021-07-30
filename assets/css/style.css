@@ -355,11 +355,12 @@ body {
 }
     .titulo{
         background-color: #000;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: #fff;
         font-size:larger;
-        font-weight: bold;
+        font-weight:lighter;
         padding: 8px;
-        padding-top: 16px;
+        padding-top: 26px;
     }
 
     .tabla{
@@ -367,7 +368,10 @@ body {
     }
 
     .menu1 {
-        font-size: large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-size:medium;
+        
         background-color: #e8e8e8; 
         
         padding: 15px;
@@ -378,7 +382,17 @@ body {
     }
 
     .subtitulo2 {
-        font-size: large;
+        font-family:sans-serif;
+        font-size:medium;
+        margin: 4px;
+        left: 12px;
+        width: 70%;
+        float:left;
+    }
+
+    .parraf {
+        font-family:sans-serif;
+        font-size:x-small;
         margin: 4px;
         left: 12px;
         width: 70%;
@@ -387,6 +401,7 @@ body {
 
     footer {
         background-color: #bababa;
+        padding-bottom: 8px;
         color: white;
         text-align: center;
         font-weight: bold;
