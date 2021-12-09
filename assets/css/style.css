@@ -1,38 +1,38 @@
 /* ejercicio 1 - desafío 1*/
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .container {
-    margin: 5px;
+  margin: 5px;
 }
 
 .box {
-    border: 2px solid #808080;
-    height: 100px;
-    width: 25%;
-    float:left;/*pegar a la izquierda*/
-    box-sizing:border-box;
-    overflow: auto;
+  border: 2px solid #808080;
+  height: 100px;
+  width: 25%;
+  float: left; /*pegar a la izquierda*/
+  box-sizing: border-box;
+  overflow: auto;
 }
 
 /* ejercicio 2 - desafío 1 */
 
 .box2 {
-    padding: 5px;
-    left: 40px;
-    height: 150px;
-    width: 100%;
-    overflow: auto;
+  padding: 5px;
+  left: 40px;
+  height: 150px;
+  width: 100%;
+  overflow: auto;
 }
 
 .box2b {
-    padding: 5px;
-    height: 100px;
-    width: 25%;
-    float:left;
-    box-sizing:border-box;
+  padding: 5px;
+  height: 100px;
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
 }
 
 /* ejercicio 3 - desafío 1 */
@@ -52,384 +52,437 @@ body {
 } */
 
 .navbar {
-    background-color: green;
+  background-color: green;
 }
 
 /* desafio 2 */
 
 .square {
-    height : 200px ;
-    width : 200px ;
+  height: 200px;
+  width: 200px;
 }
 
 .square__red {
-    background-color: rgba(255, 0, 0, .5);
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .square__green {
-    background-color: rgba(0, 255, 0, .5);
-    left: 25px ;
-    position : absolute;
-    position:absolute; 
-    z-index:2;
-    left: 25px; 
-    top : 25px;
+  background-color: rgba(0, 255, 0, 0.5);
+  left: 25px;
+  position: absolute;
+  position: absolute;
+  z-index: 2;
+  left: 25px;
+  top: 25px;
 }
 
-.square__blue {    
-    background-color: rgba(0, 0, 255, .5);
-    left: 50px ;
-    position:absolute; 
-    z-index:3;
-    left: 50px; 
-    top : 50px;
-    }
-    button {
-    margin-top: 100px;
+.square__blue {
+  background-color: rgba(0, 0, 255, 0.5);
+  left: 50px;
+  position: absolute;
+  z-index: 3;
+  left: 50px;
+  top: 50px;
+}
+button {
+  margin-top: 100px;
 }
 
 /* desafio 3 */
 
 .bandera {
-height: 140px;
-width: 230px;
+  height: 140px;
+  width: 230px;
 }
-    .bandera__España {
-        background-color: red;
-        top: 100px;
-        left: 100px;
-        float: left;/*para que las banderas floten a los lados*/
-        position: absolute;/*mantiene forma*/
-    
-    }
+.bandera__España {
+  background-color: red;
+  top: 100px;
+  left: 100px;
+  float: left; /*para que las banderas floten a los lados*/
+  position: absolute; /*mantiene forma*/
+}
 
-    .barra__gruesa {
-        background-color: yellow;
-        height: 60px;
-        width: 228px;
-        top: 140px;
-        left: 100px;
-        border: 1px solid #808080;
-        float: left;
-        position: absolute;
-        z-index:3;
-    }
+.barra__gruesa {
+  background-color: yellow;
+  height: 60px;
+  width: 228px;
+  top: 140px;
+  left: 100px;
+  border: 1px solid #808080;
+  float: left;
+  position: absolute;
+  z-index: 3;
+}
 
-    .bandera__Dinamarca {
-        background-color: red;
-        border: 1px solid #808080;
-        top: 100px;
-        left:400px;
-        float: left;
-        position: absolute;
-    }
+.bandera__Dinamarca {
+  background-color: red;
+  border: 1px solid #808080;
+  top: 100px;
+  left: 400px;
+  float: left;
+  position: absolute;
+}
 
-    .barra__fina_v {
-        background-color: white;
-        height: 139px;
-        width: 20px;
-        top: 101px;
-        left: 460px;
-        position: absolute;
-        z-index:3;
-    }
+.barra__fina_v {
+  background-color: white;
+  height: 139px;
+  width: 20px;
+  top: 101px;
+  left: 460px;
+  position: absolute;
+  z-index: 3;
+}
 
-    .barra__fina_h {
-        background-color: white;
-        height: 20px;
-        width: 229px;
-        top: 160px;
-        left: 401px;
-        position: absolute;
-        z-index:3;
-    }
+.barra__fina_h {
+  background-color: white;
+  height: 20px;
+  width: 229px;
+  top: 160px;
+  left: 401px;
+  position: absolute;
+  z-index: 3;
+}
 
-    .bandera__Emiratos {
-        background-color: red;
-        border: 1px solid #808080;
-        top: 300px;
-        left:100px;
-        float: left;
-        position: absolute;
-    }
+.bandera__Emiratos {
+  background-color: red;
+  border: 1px solid #808080;
+  top: 300px;
+  left: 100px;
+  float: left;
+  position: absolute;
+}
 
-    .barra__normal_verde {
-        background-color: green;
-        height: 46px;
-        width: 160px;
-        top: 300px;
-        left: 170px;
-        position: absolute;
-    }
+.barra__normal_verde {
+  background-color: green;
+  height: 46px;
+  width: 160px;
+  top: 300px;
+  left: 170px;
+  position: absolute;
+}
 
-    .barra__normal_blanca {
-        background-color: white;
-        height: 46px;
-        width: 160px;
-        top: 394px;
-        left: 170px;
-        position: absolute;
-    }
+.barra__normal_blanca {
+  background-color: white;
+  height: 46px;
+  width: 160px;
+  top: 394px;
+  left: 170px;
+  position: absolute;
+}
 
-    .barra__normal_negra {
-        background-color: black;
-        height: 46px;
-        width: 160px;
-        top: 394px;
-        left: 170px;
-        position: absolute;
-    }
+.barra__normal_negra {
+  background-color: black;
+  height: 46px;
+  width: 160px;
+  top: 394px;
+  left: 170px;
+  position: absolute;
+}
 
-    .barra__normal_blanca {
-        background-color: white;
-        height: 46px;
-        width: 160px;
-        top: 347px;
-        left: 170px;
-        position: absolute;
-    }
+.barra__normal_blanca {
+  background-color: white;
+  height: 46px;
+  width: 160px;
+  top: 347px;
+  left: 170px;
+  position: absolute;
+}
 
-    .bandera__Japon {
-        background-color: white;
-        border: 1px solid #808080;
-        top: 300px;
-        left:400px;
-        float: left;
-        position: absolute;
-    }
+.bandera__Japon {
+  background-color: white;
+  border: 1px solid #808080;
+  top: 300px;
+  left: 400px;
+  float: left;
+  position: absolute;
+}
 
-    .medalla {
-        background-color: red;
-        height: 80px;
-        width: 80px;
-        top: 330px;
-        left:470px;
-        border-radius: 100%;
-        float: left;
-        position: absolute;
-        z-index:3;
-    }
+.medalla {
+  background-color: red;
+  height: 80px;
+  width: 80px;
+  top: 330px;
+  left: 470px;
+  border-radius: 100%;
+  float: left;
+  position: absolute;
+  z-index: 3;
+}
 
-    .españa {
-        top: 230px;
-        left:100px;
-        float: left;
-        position: absolute;
-    }
+.españa {
+  top: 230px;
+  left: 100px;
+  float: left;
+  position: absolute;
+}
 
-    .emiratos {
-        top: 430px;
-        left:100px;
-        float: left;
-        position: absolute;
-    }
+.emiratos {
+  top: 430px;
+  left: 100px;
+  float: left;
+  position: absolute;
+}
 
-    .japon {
-        top: 430px;
-        left:400px;
-        float: left;
-        position: absolute;
-    }
+.japon {
+  top: 430px;
+  left: 400px;
+  float: left;
+  position: absolute;
+}
 
-    .dinamarca {
-        top: 230px;
-        left:400px;
-        float: left;
-        position: absolute;
-    }
+.dinamarca {
+  top: 230px;
+  left: 400px;
+  float: left;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .dinamarca {
+    top: 630px;
+    left: 100px;
+    float: left;
+    position: relative;
+  }
+  .bandera__Dinamarca {
+    background-color: red;
+    border: 1px solid #808080;
+    top: 500px;
+    left: 100px;
+    float: left;
+    position: absolute;
+  }
+  .barra__fina_v {
+    background-color: white;
+    height: 139px;
+    width: 20px;
+    top: 501px;
+    left: 160px;
+    position: absolute;
+    z-index: 3;
+  }
+  .barra__fina_h {
+    background-color: white;
+    height: 20px;
+    width: 229px;
+    top: 560px;
+    left: 101px;
+    position: absolute;
+    z-index: 3;
+  }
+  .japon {
+    top: 830px;
+    left: 100px;
+    float: left;
+    position: absolute;
+  }
+  .bandera__Japon {
+    background-color: white;
+    border: 1px solid #808080;
+    top: 700px;
+    left: 100px;
+    float: left;
+    position: absolute;
+  }
+  
+  .medalla {
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    top: 730px;
+    left: 170px;
+    border-radius: 100%;
+    float: left;
+    position: absolute;
+    z-index: 3;
+  }
+}
 
 /* desafio 4 */
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-    .main {
-        background-color: #B0CCAB;
-        padding: 50px;
-    }
-    .main__paragraph {
-        left: 40px;
-        position: relative;
-    }
+.main {
+  background-color: #b0ccab;
+  padding: 50px;
+}
+.main__paragraph {
+  left: 40px;
+  position: relative;
+}
 
 /* desafio 5 */
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-    #img1_ejer5 {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        z-index: -1
-    }
+#img1_ejer5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
 
-    #img2_ejer5 {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        z-index: -1
-    }
+#img2_ejer5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
 
 /* desafio 6 */
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-    #ejer6 {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        z-index: -1
-    }
+#ejer6 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
 
-    #ejer6_ribbon {
-        position: relative;
-        left: 70px;
-        top: 104px;
-        z-index: -1
-    }
+#ejer6_ribbon {
+  position: relative;
+  left: 70px;
+  top: 104px;
+  z-index: -1;
+}
 
 /* desafio 7 */
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-    #img1 {/*posicionamiento relativo a la derecha(viewport)*/
-        float: right;
-        position: relative;
-        left: 0px;
-        top: 0px;
-        z-index: -1
-    }
+#img1 {
+  /*posicionamiento relativo a la derecha(viewport)*/
+  float: right;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
 
 /* desafio 8 */
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-    ul.menu {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    ul.menu li {
-        background: olive;
-        box-sizing: border-box;
-        float: left;
-        width: 25%;
-    }
-    ul.menu li a {
-        color: #FFF;
-        display: block;
-        padding: 10px;
-        text-decoration: none;
-        
-    }
-    ul.menu li a:hover {
-        background: #000;
-        
-    }
-    .p_desafio-8 {
-        clear: left;/*el parrafo es movido hacia abajo para limpiar elementos flotantes a la izquierda*/
-    }
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.menu li {
+  background: olive;
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+}
+ul.menu li a {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+ul.menu li a:hover {
+  background: #000;
+}
+.p_desafio-8 {
+  clear: left; /*el parrafo es movido hacia abajo para limpiar elementos flotantes a la izquierda*/
+}
 
 /* desafio 9 */
 
-#pagina{
-        margin: 0 20px;
-        text-align: left;
+#pagina {
+  margin: 0 20px;
+  text-align: left;
 }
-    .titulo{
-        background-color: #000;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #fff;
-        font-size:larger;
-        font-weight:lighter;
-        padding: 8px;
-        padding-top: 26px;
-    }
-
-    .tabla{
-        clear: both;
-    }
-
-    .menu1 {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-        font-size:medium;
-        
-        background-color: #e8e8e8; 
-        
-        padding: 15px;
-        margin: 0;
-        height: 200px;
-        width: 25%;
-        float:left;
-    }
-
-    .subtitulo2 {
-        font-family:sans-serif;
-        font-size:medium;
-        margin: 4px;
-        left: 12px;
-        width: 70%;
-        float:left;
-    }
-
-    .parraf {
-        font-family:sans-serif;
-        font-size:x-small;
-        margin: 4px;
-        left: 12px;
-        width: 70%;
-        float:left;
-    }
-
-    footer {
-        background-color: #bababa;
-        padding-bottom: 8px;
-        color: white;
-        text-align: center;
-        font-weight: bold;
-        width: 100%;        
-        float:left;
-    }
-
-
-@media screen and (max-width: 800px){
-    #menu1 {
-        width: 24%;
-        padding-bottom: 200px;
-    }
-    #subtitulo2 {
-        width: 76%;
-        padding-bottom: 200px;
-    }
-    footer {
-        width: 100%;
-        padding-bottom: 200px;
-    }
+.titulo {
+  background-color: #000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  font-size: larger;
+  font-weight: lighter;
+  padding: 8px;
+  padding-top: 26px;
 }
 
-@media screen and (max-width: 480px){
-          
-            
-    #pagina {
-        margin: 0;
-    }
-        
-     #menu1, #subtitulo2, footer, #titulo {
-        padding: 20px;
-        width: 100%;
-    }
-}  
+.tabla {
+  clear: both;
+}
+
+.menu1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  font-size: medium;
+
+  background-color: #e8e8e8;
+
+  padding: 15px;
+  margin: 0;
+  height: 200px;
+  width: 25%;
+  float: left;
+}
+
+.subtitulo2 {
+  font-family: sans-serif;
+  font-size: medium;
+  margin: 4px;
+  left: 12px;
+  width: 70%;
+  float: left;
+}
+
+.parraf {
+  font-family: sans-serif;
+  font-size: x-small;
+  margin: 4px;
+  left: 12px;
+  width: 70%;
+  float: left;
+}
+
+footer {
+  background-color: #bababa;
+  padding-bottom: 8px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  float: left;
+}
+
+
+@media screen and (max-width: 800px) {
+  #pagina {
+    margin: 0;
+    text-align: center;
+  } 
+  
+  footer,
+  #titulo {
+    padding: 20px;
+    width: 100%;
+  }
+  .menu1 {
+    padding-right: 100%;
+  }
+  .parraf {
+    margin: 4px 0px 20px 20%;
+    text-align: justify;
+    width: 100%;
+    font-size:medium;
+  }
+}
